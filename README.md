@@ -56,3 +56,33 @@
   * Elastic Load Balance.
   * Amazon Virtual Privat Cloud.
 * Availability Zone
+
+
+##### AWS **Identity and Access Management** (Meant for authenticating and authorization against AWS API-- not for OS level or application or database)
+* Authentication
+* Authorization
+* Users
+* Groups
+* Password Policy
+* Multifactor Authenctication
+  * What you know (username,password)
+  * What you have (like device, netguard)
+  * What you are(Biometrics)
+  
+###### Create User and Groups
+* Add Group
+  * Define policies (eg can launch EC2 instances)
+  *
+* Add User
+  * set password
+  * assign group
+* Access Keys 
+  * For API access
+##### Amazon Resource Name (ARN)
+* Format Pattern
+  * arn:partition:service:region:account-id:resourceType/resource
+  * arn:partition:service:region:account-id:resourceType:resource
+* Examples
+  * arn:aws:rds:us-west-2:12345678:db:mysql-db
+  * arn:aws:s3:::mybucket/*  (No account id necessary for s3 buckets)
+  * arn:aws:iam::12345:user/neeraj (No region necessary for global services)
