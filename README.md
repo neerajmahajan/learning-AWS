@@ -72,10 +72,11 @@
 ###### Create User and Groups
 * Add Group
   * Define policies (eg can launch EC2 instances)
-  *
+    * AWS Managed Policies.
+    * Custom Policies.
 * Add User
-  * set password
-  * assign group
+  * set password.
+  * assign group.
 * Access Keys 
   * For API access
 ##### Amazon Resource Name (ARN)
@@ -84,5 +85,9 @@
   * arn:partition:service:region:account-id:resourceType:resource
 * Examples
   * arn:aws:rds:us-west-2:12345678:db:mysql-db
-  * arn:aws:s3:::mybucket/*  (No account id necessary for s3 buckets)
+  * arn:aws:s3:::mybucket/*  (No account id necessary for s3 buckets) (/* means anywhere under mybucket)
   * arn:aws:iam::12345:user/neeraj (No region necessary for global services)
+##### Roles
+ * We can give roles in code, so that we dont have to specify username,password,etc in our code.
+ * For eg EC2 can read files from S3.
+##### Fedrated Users
