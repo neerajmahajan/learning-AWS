@@ -89,5 +89,10 @@
   * arn:aws:iam::12345:user/neeraj (No region necessary for global services)
 ##### Roles
  * We can give roles in code, so that we dont have to specify username,password,etc in our code.
- * For eg EC2 can read files from S3.
+ * For eg EC2(Elastic Compute Cloud) can read files from S3(Simple Storage Service).
 ##### Fedrated Users
+* Existing user need access on AWS without recreating account on AWS
+
+##### MFA Device (Multifactor Authentication
+* Virtual MFA
+* Physical MFA
