@@ -3,7 +3,7 @@
 ##### Cloud Computing characterstics
 * On Demand
   * You get what need when required.
-  * VM, Storage, etc
+  * VM, Storage,Database etc
 * Broad Network Access
   * Private network
   * public network
@@ -44,3 +44,15 @@
 * Amazon route53
   * DNS query.
   * Global DNS Service.
+###### Scope of service
+* Global Services(Dont chose region)
+  * AWS IAM
+  * Amazon Cloud Front
+  * AWS route53
+  * making a change in service effects everyhwere
+* Regional Services(Dont choose availibility zone)
+  * Amazon dynomoDB.
+  * Amazon Simple Storage Service.
+  * Elastic Load Balance.
+  * Amazon Virtual Privat Cloud.
+* Availability Zone
