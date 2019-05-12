@@ -97,3 +97,10 @@
 * Virtual MFA
 * Physical MFA
 #### Resource Policy ????
+
+
+#### Networking
+
+###### Amazon Virtual Private Network
+* Public --
+* Private -- Not directly access outside virtual private network
